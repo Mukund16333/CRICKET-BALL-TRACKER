@@ -1,0 +1,7 @@
+path: ./data/dataset
+train: images/train
+val: images/train  # Since you have limited frames, use train for val too
+
+names:
+  0: ball
+  1: player

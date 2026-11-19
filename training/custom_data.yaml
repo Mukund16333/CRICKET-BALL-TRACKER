@@ -1,0 +1,8 @@
+# Use absolute paths or paths relative to the script execution location
+path: ../data/dataset/  # dataset root dir
+train: train/images     # train images (relative to 'path')
+val: valid/images       # val images (relative to 'path')
+
+# Classes
+nc: 2                   # number of classes
+names: ['ball', 'player'] # class names (0: ball, 1: player)

@@ -1,0 +1,66 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Virtual Environments ===
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# === Jupyter ===
+.ipynb_checkpoints/
+etc/
+
+# === Model Weights (large binary files) ===
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# === Data / Media (large files) ===
+data/raw/
+data/processed/
+data/dataset/images/
+data/dataset/labels/train/*.cache
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# === YOLO Training Runs ===
+runs/
+output/
+
+# === Misc ===
+*.log
+*.tmp
+.cache/
+
